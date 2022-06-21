@@ -1,26 +1,37 @@
-#String Method
+# #String Method
 
-from codecs import namereplace_errors
-
-
-name="PraHladArcgAte"
-
-# 1. len () Function
-print(len(name))
+# from codecs import namereplace_errors
 
 
-# 2. lower() Method
-print(name.lower())
+# name="PraHladArcgAte"
+
+# # 1. len () Function
+# print(len(name))
 
 
-# 3. Upper () Method
+# # 2. lower() Method
+# print(name.lower())
 
-print(name.upper())
 
-# 4.title () Method
+# # 3. Upper () Method
 
-print(name.title())
+# print(name.upper())
 
-# 5. count () method
+# # 4.title () Method
 
-print(name.count("a"))  # This is use  to cound in String in each charthevr
+# print(name.title())
+
+# # 5. count () method
+
+# print(name.count("a"))  # This is use  to cound in String in each charthevr
+
+# # 6. Replace () Method
+#The replace() method returns a copy of the string in which the occurrences of old have been replaced with new, optionally restricting the number of replacements to max.
+
+
+str = "this is string example....wow!!! this is really string"
+
+print (str.replace("is", "was"))
+print (str.replace("is", "was", 2))
+
+# 7. find () Method 
