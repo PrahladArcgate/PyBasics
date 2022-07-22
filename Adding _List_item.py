@@ -2,6 +2,7 @@
 
 # To add an item to the end of the list, use the append() method:
 
+# sourcery skip: merge-list-append
 List1 =["Orange ","Mango ","Graps"]
 List1.append("Fruits")
 print(List1)
